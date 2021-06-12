@@ -1,0 +1,49 @@
+{
+  "name": "expo-typescript-starter",
+  "version": "1.0.0",
+  "description": "Expo and TypeScript Starter (Alpha native base)",
+  "private": true,
+  "license": "MIT",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "yarn run start --android",
+    "check-types": "tsc",
+    "ios": "yarn run start --ios",
+    "lint": "eslint --format unix \"**/*.ts\" \"**/*.tsx\"",
+    "start": "yarn install && expo start",
+    "validate": "yarn install --frozen-lockfile && yarn run lint && yarn run check-types"
+  },
+  "engines": {
+    "node": ">=10",
+    "yarn": ">=1.1"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "expo": "^41.0.1",
+    "native-base": "^3.0.0-next.40",
+    "react": "17.0.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.3",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "~3.3.0",
+    "react-native-svg": "^12.1.1",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "~17.0.11",
+    "@types/react-native": "~0.64.10",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "babel-preset-expo": "8.3.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "expo-cli": "4.5.2",
+    "prettier": "^2.3.1",
+    "typescript": "~4.3.2"
+  }
+}
