@@ -1,4 +1,4 @@
-# Expo and TypeScript Starter
+# Expo and TypeScript Starter (Alpha native base)
 
 This is a [React Native](https://facebook.github.io/react-native/) demo app using the [Expo framework](https://expo.io) and written in [TypeScript](http://www.typescriptlang.org). It uses the [managed workflow](https://docs.expo.io/introduction/managed-vs-bare/).
 
