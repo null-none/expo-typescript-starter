@@ -17,7 +17,7 @@ export class HomeScreen extends Component<Props> {
     return (
       <NativeBaseProvider>
         <View style={styles.container}>
-          <Text>Open up App.js to start working on your app!</Text>
+          <Text>Home</Text>
         </View>
       </NativeBaseProvider>
     );
